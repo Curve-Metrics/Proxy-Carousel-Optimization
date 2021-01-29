@@ -1,0 +1,54 @@
+.nav-bar {
+  position: fixed;
+  display: block;
+  z-index: 101;
+  top: 0;
+  left: -12px;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+#gallery, #similarHomesCarousel {
+  position: relative;
+  transform: scale(1.1);
+  overflow: visible;
+}
+
+#gallery {
+  display: block;
+  position: relative;
+  top: 70px;
+  margin: 70px;
+}
+
+#gallery-modal-root {
+
+  z-index: 99;
+}
+
+#photo-modal-root {
+  z-index: 100;
+}
+
+.descWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 130px 0 50px -11.5%;
+}
+
+#similarHomesCarousel {
+  margin-left: 40px;
+}
+
+#calculator {
+
+}
+
+.finalCredits {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+}
